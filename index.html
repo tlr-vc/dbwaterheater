@@ -39,6 +39,15 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/style.css">
 
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
@@ -84,16 +93,57 @@
     <main>
         <!-- 1. HERO SECTION -->
         <section class="hero">
-            <h1>Same-Day Water Heater Installation & Replacement</h1>
-            <p class="hero-subtitle">Vacaville, CA & Surrounding Areas • Licensed & Insured</p>
-            <p class="hero-tagline">Most installs completed the same day</p>
-            <div class="hero-cta-group">
-                <a href="tel:+14154245964" class="cta-button cta-primary">
-                    Call Now: (415) 424-5964
-                </a>
-                <a href="sms:+14154245964" class="cta-button cta-secondary">
-                    Text for Quote
-                </a>
+            <div class="hero-content">
+                <h1>Same-Day Water Heater Installation & Replacement</h1>
+                <p class="hero-subtitle">Vacaville, CA & Surrounding Areas • Licensed & Insured</p>
+                <p class="hero-tagline">Most installs completed the same day</p>
+                <div class="hero-cta-group">
+                    <a href="tel:+14154245964" class="cta-button cta-primary">
+                        Call Now: (415) 424-5964
+                    </a>
+                    <a href="sms:+14154245964" class="cta-button cta-secondary">
+                        Text for Quote
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1.5 TRUST BADGES -->
+        <section class="trust-badges">
+            <div class="container">
+                <div class="badge-grid">
+                    <div class="trust-badge">
+                        <div class="badge-icon">✓</div>
+                        <div class="badge-text">
+                            <strong>Licensed & Insured</strong>
+                            <a href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=714897"
+                               target="_blank" rel="noopener">
+                                CA License #714897
+                            </a>
+                        </div>
+                    </div>
+                    <div class="trust-badge">
+                        <div class="badge-icon">★</div>
+                        <div class="badge-text">
+                            <strong>Same-Day Service</strong>
+                            <span>Most installs completed today</span>
+                        </div>
+                    </div>
+                    <div class="trust-badge">
+                        <div class="badge-icon">⚡</div>
+                        <div class="badge-text">
+                            <strong>Fast Response</strong>
+                            <span>Call or text for immediate quote</span>
+                        </div>
+                    </div>
+                    <div class="trust-badge">
+                        <div class="badge-icon">🛡️</div>
+                        <div class="badge-text">
+                            <strong>Quality Guaranteed</strong>
+                            <span>Expert installation & workmanship</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
