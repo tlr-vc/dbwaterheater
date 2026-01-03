@@ -702,6 +702,19 @@ main {
     font-weight: 500;
 }
 
+.bottom-cta .cta-secondary {
+    background: var(--bg-white);
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+    backdrop-filter: none;
+}
+
+.bottom-cta .cta-secondary:hover {
+    background: var(--primary-blue);
+    color: var(--bg-white);
+    border-color: var(--primary-blue);
+}
+
 /* ==========================================
    SERVICE PAGES
    ========================================== */
