@@ -359,5 +359,23 @@
             ✉️ Text Us
         </a>
     </div>
+
+    <!-- Shrinking Header on Scroll -->
+    <script>
+        let lastScroll = 0;
+        const header = document.querySelector('header');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            lastScroll = currentScroll;
+        });
+    </script>
 </body>
 </html>
