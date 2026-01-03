@@ -363,20 +363,31 @@
 
     <!-- Shrinking Header on Scroll -->
     <script>
-        let lastScroll = 0;
         const header = document.querySelector('header');
+        let ticking = false;
 
-        window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
+        function updateHeader() {
+            const currentScroll = window.pageYOffset || window.scrollY;
 
             if (currentScroll > 100) {
-                header.classList.add('scrolled');
+                if (!header.classList.contains('scrolled')) {
+                    header.classList.add('scrolled');
+                }
             } else {
-                header.classList.remove('scrolled');
+                if (header.classList.contains('scrolled')) {
+                    header.classList.remove('scrolled');
+                }
             }
 
-            lastScroll = currentScroll;
-        });
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(updateHeader);
+                ticking = true;
+            }
+        }, { passive: true });
     </script>
 </body>
 </html>
