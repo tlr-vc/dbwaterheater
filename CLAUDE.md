@@ -5,12 +5,20 @@ Static HTML website for dbwaterheater.com - conversion-optimized marketing site 
 
 ## Business Details
 - **Company Name**: Doughty Brothers Water Heater (plural)
+- **Legal Entity**: Doughty Brothers Construction
+- **License**: 714897 (California Contractors License)
 - **Service Area**: Vacaville, CA + ~65 mile radius (Solano, Napa, Yolo, Contra Costa, parts of Sacramento)
 - **Key Personnel**: Lyle - expert contractor
 - **Value Proposition**: High quality expert service with low overhead, passing savings to customers
 - **Business Model**: Small shop operation emphasizing expertise and affordability
 - **Pricing**: Tank installs $2,000-$2,500; Tankless quoted after assessment
 - **Payment Terms**: 50% upfront, balance on completion
+
+## Brand Assets
+- **Brand Guidelines**: See `BRAND-GUIDELINES.md` for complete logo system and usage specifications
+- **Logo System**: Badge (primary) + Droplet icon (favicon)
+- **Brand Colors**: Primary Blue (#0B4FA2), Dark Navy (#0A1F33), White (#FFFFFF)
+- **Brand Tone**: Traditional, rugged, trustworthy - licensed-trade aesthetic
 
 ## Technical Details
 - **Hosting**: CloudFlare Pages

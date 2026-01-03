@@ -7,26 +7,33 @@ Conversion-optimized static website for dbwaterheater.com - Professional water h
 ```
 dbwaterheater/
 ├── index.html                              # Homepage (8 conversion sections)
-├── style.css                               # Main stylesheet (~700 lines)
+├── style.css                               # Main stylesheet (~770 lines)
 ├── favicon.svg                             # Site favicon
 ├── robots.txt                              # SEO - allow all
 ├── sitemap.xml                             # All pages with priorities
 ├── assets/
 │   ├── logo/
-│   │   └── logo.svg                        # Company logo (placeholder)
+│   │   └── logo.svg                        # Company logo
 │   └── photos/
-│       ├── install-1.svg                   # Photo placeholders
-│       ├── install-2.svg
-│       └── install-3.svg
+│       ├── IMG_0117.jpg                    # Installation photo 1
+│       ├── IMG_0120.jpg                    # Installation photo 2
+│       └── IMG_0123.jpg                    # Installation photo 3
 ├── services/
 │   ├── water-heater-replacement.html       # Tank replacement service
 │   ├── tankless-water-heater-installation.html  # Tankless service
 │   └── emergency-no-hot-water.html         # Emergency service
 ├── legal/
 │   └── privacy.html                        # Privacy policy
+├── BRAND-GUIDELINES.md                     # Logo system & brand specifications
 ├── CLAUDE.md                               # Detailed project documentation
 └── README.md                               # This file
 ```
+
+## Documentation
+
+- **BRAND-GUIDELINES.md** - Complete logo system, color palette, typography, and usage guidelines
+- **CLAUDE.md** - Technical documentation, content guidelines, and maintenance procedures
+- **README.md** - This file (quick start and deployment)
 
 ## Deployment
 
