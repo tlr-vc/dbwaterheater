@@ -435,6 +435,31 @@ main {
     line-height: 1.6;
 }
 
+.terms-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0 0;
+    text-align: left;
+}
+
+.terms-list li {
+    padding: 0.875rem 1.25rem;
+    margin: 0.75rem 0;
+    background: var(--bg-white);
+    border-left: 3px solid var(--primary-blue);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: var(--transition);
+}
+
+.terms-list li:hover {
+    background: var(--bg-blue-light);
+    transform: translateX(4px);
+}
+
 .terms-box p {
     margin: 0.75rem 0;
     color: var(--text-medium);
