@@ -1105,8 +1105,8 @@ footer {
    RESPONSIVE (Mobile-First Approach)
    ========================================== */
 
-@media (max-width: 767px) {
-    /* Show mobile CTA bar on mobile only */
+@media (max-width: 991px) {
+    /* Show mobile CTA bar on mobile and tablet */
     .mobile-cta-bar {
         display: flex;
     }
@@ -1222,8 +1222,8 @@ footer {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-    /* Tablet-specific adjustments */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Tablet/small desktop adjustments */
     .tile-grid,
     .steps-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1238,7 +1238,7 @@ footer {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     /* Desktop-specific enhancements */
     .hero h1 {
         font-size: 3.25rem;
